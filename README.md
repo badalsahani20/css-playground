@@ -20,5 +20,7 @@ How to use
 </ol>  
 
 Notes
-<ul>This is purely for learning and practice purposes.</ul>
-<ul>Focused on visual effects and CSS experimentation.</ul>
+<ul>
+<li>This is purely for learning and practice purposes.</li>
+<li>Focused on visual effects and CSS experimentation.</li>
+</ul>
