@@ -1,0 +1,31 @@
+input::placeholder {
+    transition: color 0.3s ease;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.hide {
+    border: 0;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.container input {
+    width: 80px;
+    padding: 5px 10px;
+    outline: none;
+    transition: width 0.4s ease, background 0.3s ease;
+    border: 1px solid;
+}
+
+.container input:focus {
+    width: 200px;
+    /* background: #333; */
+}

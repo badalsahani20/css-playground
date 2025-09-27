@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s04m0kr",
+  "description": "https://scrimba.com/css-challenges-c02p/~08/s08ommic7d/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
