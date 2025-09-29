@@ -1,0 +1,40 @@
+:root {
+    --color-light: lightgray;
+    --color-dark: darkgray;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height: 1.5em;
+    width: 1.5em;
+    background: #000;
+    margin: .5em;
+    border-radius: 50%;
+    animation: pulse infinite alternate 1s;
+}
+
+@keyframes pulse {
+    from {
+        background: var(--color-dark);
+        transform: scale(1);
+    }
+    to {
+        background: var(--color-light);
+        transform: scale(1.1);
+    }
+}
+
+.circle:nth-child(1) {animation-delay: 0s;}
+.circle:nth-child(2) {animation-delay: 0.2s;}
+.circle:nth-child(3) {animation-delay: 0.4s;}
