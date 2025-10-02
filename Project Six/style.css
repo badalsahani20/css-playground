@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-word: #5134ff;
+}
+
+/* .container {
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1:after {
+    content: "";
+    animation: 6s swap infinite;
+}
+
+@keyframes swap {
+    0% {
+        content: "cats";
+    }
+    25%{
+        content: "coding";
+    }
+    50%{
+        content: "gaming";
+    }
+    75%{
+        content: "songs";
+    }
+    100%{
+        content: "cats";
+    }
+} */
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3:after {
+    content:"";
+    animation: 6s swap infinite;
+}
+
+@keyframes swap {
+            0% {
+                content: "cats";
+            }
+            25% {
+                content: "games";
+            }
+            50% {
+                content: "coding";
+            }
+            75% {
+                content: "Songs";
+            }
+            100% {
+                content: "cats";
+            }
+        }
