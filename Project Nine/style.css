@@ -1,0 +1,120 @@
+:root {
+    --white: #fff;
+    --red: #fc3e32;
+    --green: #007e39;
+    --flagHeight: 200px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.madagascar-flag {
+  height: var(--flagHeight);
+  width: calc(var(--flagHeight) * 1.5);
+  margin: 2em auto;
+  display: flex;
+}
+
+.white {
+  background: var(--white);
+  width: calc(var(--flagHeight) / 2);
+}
+
+.red {
+  background: var(--red);
+  height: 50%;
+  width: var(--flagHeight);
+}
+
+.green {
+  background: var(--green);
+  height: 50%;
+}
+
+/* .madagascar-flag{
+  width: 300px;
+  height: var(--flagHeight);
+  display: flex;
+}
+
+.madagascar-flag > .white {
+  flex:1;
+  background: var(--white);
+}
+
+.madagascar-flag > div{
+  flex: 2;
+  /* background: var(--red); 
+  display: flex;
+  flex-direction: column;
+}
+
+.red {
+  flex: 1;
+  background-color: var(--red);
+}
+
+.green {
+  flex: 1;
+  background: var(--green);
+} */
+
+/* .madagascar-flag {
+  width: 300px;
+  height: var(--flagHeight);
+  display: flex;
+}
+
+.left {
+  flex:1;
+  background: var(--white);
+}
+
+.right {
+  flex:2;
+  display: flex;
+  flex-direction: column;
+}
+
+.red {
+  flex: 1;
+  background: var(--red);
+}
+
+.green {
+  flex:1;
+  background: var(--green);
+} */
+
+/* .madagascar-flag {
+  height: 150px;
+  width: 225px;
+  margin: 2em auto;
+  display: flex;
+  background: transparent;
+}
+
+.white {
+  background: #fff;
+  width: 33.33%;
+  height: 100%;
+}
+
+.madagascar-flag > div:not(.white) {
+  width: 66.66%;
+  display: flex;
+  flex-direction: column;
+}
+
+.red {
+  background: #fc3e32;
+  height: 50%;
+}
+
+.green {
+  background: #007e39;
+  height: 50%;
+} */

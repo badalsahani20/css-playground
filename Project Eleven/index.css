@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+
+:root {
+    --white: #fff;
+    --red: #bc022c;
+    --flag-height: 200px;
+}
+
+.flag {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 1.5); /*  3/2 aspect ratio = 1.5 times bigger */    
+    margin: 2em auto;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* circle on the japanese flag is 3/5 of the flag */
+.circle {
+    /* .6 or 60% of the overall flag height */
+    height: calc(var(--flag-height) * 3/5);
+    width: calc(var(--flag-height) * 3/5);
+    background: var(--red);
+    border-radius: 50%;
+}
