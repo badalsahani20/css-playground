@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: #0269AC;
+    --yellow: #FECC00;
+    --flag-height: 150px;
+    --flag-width: calc(var(--flag-height) * 8/5);
+}
+
+.flag{
+    height: var(--flag-height);
+    /* Aspect ratio 5:8 */
+    width: var(--flag-width);
+    background: var(--blue);
+    margin: 2em auto;
+    display: flex;
+    position: relative;
+}
+
+.stripe {
+    background: var(--yellow);
+    height: calc(var(--flag-height) * 1/5);  /* 1/5 of the flag height or 2 / 10 */
+}
+
+.stripe-one{
+    align-self: center;
+    width: 100%;
+}
+
+.stripe-two {
+    width: var(--flag-height);
+    position: absolute;
+    transform: rotate(90deg);
+    top: calc(var(--flag-height) * 4/10);
+    right: calc(var(--flag-width) * 5/16);
+}
